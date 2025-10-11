@@ -28,8 +28,8 @@ To run this project, first ensure you have Python installed on your system. Then
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/nimabgr/Hand-Detection-OpenCV-MediaPipe.git](https://github.com/nimabgr/Hand-Detection-OpenCV-MediaPipe.git)
-    cd your-repository-name
+    git clone [https://github.com/nimabgr/Hand-Detection-OpenCV-MediaPipe.git]
+    cd Hand-Detection-OpenCV-MediaPipe
     ```
 
 2.  **Create and activate a virtual environment (highly recommended):**
