@@ -4,7 +4,7 @@ This project is a Python-based solution for real-time hand detection and landmar
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 -   **Real-time Performance:** Tracks hands smoothly and efficiently directly from a live webcam feed.
 -   **Multi-hand Detection:** Capable of detecting and tracking multiple hands simultaneously.
@@ -14,7 +14,7 @@ This project is a Python-based solution for real-time hand detection and landmar
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 -   **Python 3.12**
 -   **OpenCV:** Used for video capture, image manipulation, and rendering.
@@ -22,13 +22,13 @@ This project is a Python-based solution for real-time hand detection and landmar
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 To run this project, first ensure you have Python installed on your system. Then, install the required dependencies using the `requirements.txt` file.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+    git clone [https://github.com/nimabgr/Hand-Detection-OpenCV-MediaPipe.git](https://github.com/nimabgr/Hand-Detection-OpenCV-MediaPipe.git)
     cd your-repository-name
     ```
 
@@ -51,7 +51,7 @@ To run this project, first ensure you have Python installed on your system. Then
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 This repository contains two primary Python scripts:
 
@@ -69,7 +69,7 @@ This repository contains two primary Python scripts:
 
 ---
 
-## 🗺️ Understanding the Hand Landmarks
+## Understanding the Hand Landmarks
 
 The MediaPipe model identifies **21 unique landmarks** for each hand, with each point corresponding to a specific joint. The image below provides a visual map of these landmarks and their corresponding index numbers.
 
@@ -79,7 +79,7 @@ These landmarks are the primary output of the model. Their coordinates (x, y) ca
 
 ---
 
-## 📂 Code Structure
+## Code Structure
 
 -   **`handTrackingModul.py`**:
     This is the main module containing the `handDetector` class. It encapsulates all the logic for finding hands and extracting landmark positions. This approach keeps the code clean, organized, and highly reusable.
