@@ -1,4 +1,4 @@
-# 🖐️ Real-Time Hand Detection & Tracking with OpenCV & MediaPipe
+# Real-Time Hand Detection & Tracking with OpenCV & MediaPipe
 
 This project is a Python-based solution for real-time hand detection and landmark tracking using a webcam. It leverages the **OpenCV** library for image processing and Google's powerful **MediaPipe** framework for the underlying machine learning model.
 
@@ -73,7 +73,7 @@ This repository contains two primary Python scripts:
 
 The MediaPipe model identifies **21 unique landmarks** for each hand, with each point corresponding to a specific joint. The image below provides a visual map of these landmarks and their corresponding index numbers.
 
-![Hand Landmarks](./assets/hand_landmarks.jpg)
+![Hand Landmarks](./assets/hand_landmarks.jpg.png)
 
 These landmarks are the primary output of the model. Their coordinates (x, y) can be used to build various applications like gesture control, virtual drawing, sign language recognition, and more. For example, in the code, `lmList[4]` provides the coordinates of the thumb's tip (THUMB_TIP), while `lmList[8]` provides the coordinates for the index finger's tip (INDEX_FINGER_TIP).
 
